@@ -13,6 +13,8 @@ public class Board {
    HashMap<Integer, Tile> tiles = new HashMap<Integer, Tile>();
    
    int randomXY = (int) (Math.random() * 4 + 0);
+
+   
    int randomTile = (int) (Math.random() * 5 + 1);
    
    Tile tile2 = new Tile(2, randomXY, randomXY);
